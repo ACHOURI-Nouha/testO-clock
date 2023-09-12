@@ -1,0 +1,57 @@
+.container {
+    max-width: 530px;
+    min-width: 530px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 530px;
+    object-fit: contain;
+}
+
+body { 
+    background-color: #fff3db;
+    font-family: sans-serif;
+}
+
+em {
+    text-align: center; 
+    text-decoration: underline;
+    display: block;
+}
+
+h1, h2, b {
+    color: #f02425;
+    text-align: center;
+}
+
+span {
+    color: #f02425;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: #f02425;
+    color: white;
+}
+
+.clear {
+    opacity: 0.5;
+  }
+
+a {
+    text-decoration: underline;
+    color: rgb(5, 155, 255);
+    font-weight: bold;
+}
+
+.tips {
+    font-weight: bold;
+    color: grey;
+    font-style: italic;
+    background-color:#f8cd77;
+    text-align: center;
+    font-size: 0.85em;
+}
