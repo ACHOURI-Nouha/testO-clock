@@ -4,8 +4,8 @@ On découvre le Markdown avec les gauffres, et on adore !
 
 ## Ca sert à quoi ?
 
-Pour retourner à la ligne dans  un paragraphe je fais 2 espaces. Ca marche pas c'est nimp.  
-Tu l'as mal explique mec.
+Pour retourner à la ligne dans  un paragraphe je fais 2 espaces. Ca marche pas c'est triste.  
+Ah merci c'est mieux là.
 
 Pour créer un nouveau paragraphe je fais double entrée.  
 
