@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(87, 87, 87);
+    text-transform: uppercase;
+}
+
+hr {
+    background-color: rgb(211, 209, 209);
+    height: 5px;
+}
+
+.image {
+    margin: 12px 0;
+    border: 1px black solid;
+    border-radius: 20px;
+}    
+
+.container {
+    width: 100%;
+    text-align: center;
+} 
+
+.separateur {
+    background-color: rgb(211, 209, 209);
+    height: 5px;
+} 
+
+header {
+    margin: 0px 50px;
+}    
+
+.navigation {
+    background-color: rgb(221,221,221);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: inline;
+    color: red;
+    margin: 10px;
+}
+
+.foot {
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+    margin: 10px;
+}
+
+span {
+    color: red;
+}
+
