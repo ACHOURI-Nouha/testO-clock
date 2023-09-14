@@ -1,0 +1,112 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+} 
+
+.red {
+    background-color: rgb(148, 2, 2);
+    height: 2px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+h1, h2, h3, .block {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+    background-color: rgb(240, 239, 239);
+    margin: 20px;
+}
+
+.container {
+    background-color: white;
+    margin: 12px 50px;
+    border: 1px black solid;
+    padding: 0 20px;
+
+}
+
+h1 {
+    font-size: 55px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: solid black;
+    font-weight: bold;
+}
+
+h3 {
+    color:  rgb(112, 2, 2);
+    font-size: 20px;
+}
+
+header, .actors, .pic1, .pic2, .pic3 {
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background-color: black;
+    display: flex;
+    align-items: baseline;
+    margin-top: 25px;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
+}
+
+.presentation {
+    background-color: rgb(240, 239, 239);
+    margin: 15px auto;
+    padding: 30px 30px 15px 30px;
+    max-width: 80%;
+}
+
+.logocorp, hr {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+em {
+    font-size: 12px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.click {
+    list-style: none; /* Supprimer les puces de liste */
+    text-transform: uppercase;
+    color:  rgb(112, 2, 2);
+    margin: 10px 0; /* Espacement entre les éléments de la liste */
+    border-radius: 10px; /* Arrondi des coins */
+    padding: 10px; /* Espace interne autour du lien */
+    background-color:rgb(240, 239, 239); /* Couleur de fond par défaut */
+    transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+}
+
+.click:hover {
+    background-color: #EFEFEF; /* Couleur de fond au survol */
+    color: #0077FF; /* Couleur du texte au survol */
+}
+
+.foot {
+    background-color: rgb(214, 212, 212);
+    text-align: center;
+    margin: 10px;
+    padding: 10px 50px 80px 50px;
+}
