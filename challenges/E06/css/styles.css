@@ -1,0 +1,145 @@
+/*! ==== GLOBAL ==== */
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+/*! ==== HEADER ==== */
+
+.header {
+  display: flex;
+  margin: 4rem 2rem;
+  width: 300px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header__logo {
+  width: 23%;
+}
+.header__title {
+  display: inline;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+/*! ==== MAIN ==== */
+.main-container {
+  display: flex;
+}
+.latest-news {
+  background-image: url("../images/nicole.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50vw;
+  position: sticky;
+  top: 0;
+  z-index: -1;
+}
+.latest-news__article {
+  background-color: rgba(167, 167, 167, 0.2);
+  color: white;
+  margin: 10rem 2rem 0 2rem;
+  padding: 2rem 1rem;
+  text-align: right;
+  line-height: 2rem;
+}
+.latest-news__article__title {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+.latest-news__article__title em {
+  font-size: 1rem;
+  font-weight: 200;
+}
+.latest-news__article__text {
+  margin-left: 5rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.lastest-news {
+  width: 50vw;
+}
+.lastest-news-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.lastest-news__article {
+  flex-basis: 50%;
+  border: 1px solid #eaeaea;
+  padding: 2rem;
+}
+.lastest-news__title {
+  background-color: #f9f9f9;
+  font-size: 2rem;
+  padding: 2rem;
+}
+.lastest-news__tag {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.4rem;
+  border-radius: 3px;
+  margin-bottom: 2rem;
+}
+.lastest-news__tag.lastest-news__tag--color-green {
+  background-color: #98DC62;
+}
+.lastest-news__tag.lastest-news__tag--color-red {
+  background-color: #DC5E53;
+}
+.lastest-news__tag.lastest-news__tag--color-blue {
+  background-color: #0766F0;
+}
+.lastest-news__article__title {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.lastest-news__author {
+  display: flex;
+  align-items: center;
+}
+.lastest-news__author__image {
+  width: 2rem;
+}
+.lastest-news__author__text {
+  padding-left: 1rem;
+  font-size: 0.8rem;
+}
+.lastest-news__text {
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
+}
+.latest-news__text-link {
+  color: #007bff;
+  font-weight: 700;
+}
+
+/*! ==== FOOTER ==== */
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 50%;
+  margin: 3rem 1rem;
+}
+.footer__nav__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__nav__item-link {
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
