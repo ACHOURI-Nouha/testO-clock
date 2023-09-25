@@ -11,3 +11,13 @@
 // Etape 3 - Ecrire une condition :
 //   - Si le nombre aléatoire est inférieur ou égal à 0.5, afficher dans la console : "C'est petit ça !".
 //   - Sinon, afficher dans la console : "C'est grand ça !"
+
+let randomNumber = Math.random();
+let X = randomNumber;
+console.log(`Mon nombre aléatoire est : ${X}`);
+if(X <= 0.5){
+  console.log("C'est petit ça !");
+}
+else{
+  console.log("C'est grand ça !");
+}
