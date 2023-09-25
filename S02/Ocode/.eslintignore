@@ -1,0 +1,4 @@
+# Disable ESLint for the first few days not to disturb students
+FS-JS/S02/E0*/**
+!FS-JS/S02/E0*/*.test.js
+!FS-JS/S02/E0[789]/*

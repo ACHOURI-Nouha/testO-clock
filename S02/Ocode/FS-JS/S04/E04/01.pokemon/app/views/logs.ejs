@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head/meta") %> 
+    <%- include("partials/head/css") %> 
+    <%- include("partials/head/title", { subtitle: "Accueil" }) %> 
+</head>
+<body>
+    <%- include("partials/header") %> 
+
+    <main>
+        <h1>Application logs</h1>
+        <ul>
+            <% for(const log of logs) { %>
+                <li><%= log.time.toISOString() %> - <%= log.url %> - <%= log.ip %></li>
+            <% } %>
+        </ul>
+    </main>
+
+    <%- include("partials/footer") %> 
+</body>
+</html>

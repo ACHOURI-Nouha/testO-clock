@@ -1,0 +1,38 @@
+<!-- /!\ Ne pas modifier ce fichier /!\ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>02.modularize</title>
+        <style>
+            div { margin-bottom: 20px; }
+        </style>
+    </head>
+    
+    <body>
+
+        <h1>Calculette Oclock</h1>
+
+        <div id="calculator"></div>
+        
+
+        
+        <!-- Cette ligne est uniquement un contournement pour les tests automatisés. Tu peux ignorer. -->
+        <script>const module = {};</script> 
+        <!-- En revanche, en dessous c'est plus interessant -->
+
+
+
+        <!-- Psssst : remarques que ce fichier 'utils' est chargé AVANT le fichier modularize.js -->
+        <!-- Cela signifie que les variables/fonctions déclarées dans ce fichier seront accesibles dans les fichiers chargés plus bas -->
+        <script src="./02.modularize.utils.js"></script>
+
+        <!-- Autrement dit, dans CE fichier (⬇ modularize.js), on aura accès aux variables de l'AUTRE (⬆ modularize.utils.js)-->
+        <script src="./02.modularize.js"></script>
+
+        <!-- Note : si on intervertit les deux lignes, c'est cassé ! -->
+    </body>
+</html>

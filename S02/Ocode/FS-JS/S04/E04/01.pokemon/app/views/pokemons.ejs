@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head/meta") %>
+    <%- include("partials/head/css") %>
+    <%- include("partials/head/title", { subtitle: "Tous les Pokémon's !" }) %>
+</head>
+<body>
+    <%- include("partials/header") %>
+
+    <main>
+        <h1>Liste des Pokémon's</h1>
+
+        <ul>
+            <% for(const pokemon of pokemons) { %>
+                <li><%= pokemon.name %></li>
+            <% } %>
+        </ul>
+    </main>
+
+    <%- include("partials/footer") %>
+</body>
+</html>

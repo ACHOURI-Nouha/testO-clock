@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include("partials/head/meta") %> 
+    <%- include("partials/head/css") %> 
+    <%- include("partials/head/title", { subtitle: "Accueil" }) %> 
+</head>
+<body>
+    <%- include("partials/header") %> 
+
+    <main>
+        <h1>Liste des dresseurs</h1>
+        <ul>
+            <% for(const trainer of trainers) { %>
+                <li><%= trainer.name %></li>
+            <% } %>
+        </ul>
+    </main>
+
+    <%- include("partials/footer") %> 
+</body>
+</html>

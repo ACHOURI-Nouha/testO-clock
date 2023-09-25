@@ -1,0 +1,51 @@
+{
+  "name": "ocode",
+  "version": "1.0.0",
+  "description": "Exercices pour les étudiants en Cockpit",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules/",
+    "generate": "bash ./test/scripts/generator.sh",
+    "dev": "bash ./test/scripts/dev.sh",
+    "test": "bash ./test/scripts/runner.sh",
+    "test:prof": "TEST_ENV=prof sh ./test/scripts/runner.sh",
+    "pick": "bash ./test/scripts/pickAndUpdate.sh",
+    "update": "bash ./test/scripts/merge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzoclock/Ocode.git"
+  },
+  "keywords": [
+    "exercices"
+  ],
+  "author": "enzo.testa@oclock.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzoclock/Ocode/issues"
+  },
+  "homepage": "https://github.com/enzoclock/Ocode#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-as-promised": "^7.1.1",
+    "chalk": "^4.1.2",
+    "eslint": "^8.29.0",
+    "jsdom": "^20.0.3",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20",
+    "recast": "^0.21.5",
+    "sinon": "^15.0.0",
+    "sinon-chai": "^3.7.0",
+    "supertest": "^6.3.2"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg": "^8.8.0",
+    "sequelize": "^6.26.0",
+    "sqlite3": "^5.1.2"
+  }
+}
