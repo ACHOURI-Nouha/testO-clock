@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decouverte du JS</title>
+    <!-- On vient lier nos scripts JS ici mais avec l'attribut defer en plus
+        <script src="app.js" defer></script>-->
+    
+</head>
+
+
+<body>
+    <h1>Decouverte du JS</h1>
+    <script>
+        // on peut ecrire du JS dans les fichiers HTML avec les balises script
+        // mais il faut séparer les concepts donc créer un autre fichier dédié au JS
+        console.log("ici c'est html");
+    </script>
+
+
+
+    <!-- On vient lier nos scripts JS avant la fermeture du body pour que le HTM CSS soient chargés avant le JS c'est tres important pour des soucis de fonctionnement du code (dans le JS on va aller chercher <script src="app.js"></script> )-->
+        <script src="exo.js"></script>
+
+</body>
+</html>

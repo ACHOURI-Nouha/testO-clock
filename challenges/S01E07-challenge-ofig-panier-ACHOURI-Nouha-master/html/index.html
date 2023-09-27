@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/styles.css">
+
+  <title>O'Fig</title>
+</head>
+<body>
+
+  <!-- BEM : Ici on a un bloc, on lui donne le nom 'header' -->
+  <header class="header">
+    <!-- BEM : Ici on a un element d'un bloc. On lui donne le nom block__element ===> header__title-container -->
+    <div class="header__title-container">
+      <h1 class="header__title">Ofig</h1>
+      <h2 class="header__subtitle">Figurines et statuettes</h2>
+    </div>
+    <div class="header__theme-container">
+      <h2 class="header__theme-title">Votre panier 
+      <span class="header__theme-title-franchise">2 produits</span></h2>
+    </div>
+  </header>
+
+  <main class="product">
+
+    <div class="product-basket">
+      <h2 class="product-basket__title">Votre panier</h2>
+      <table class="product-basket__table">
+        <thead class="table-head">
+          <tr>
+            <td>Figurine</td>
+            <td>Prix Unitaire</td>
+            <td>Quantité</td>
+          </tr>
+        </thead>
+      <tbody>
+        <tr class="table__row">
+          <td>Cloud Strife</td>
+          <td>59 £</td>
+          <td>
+            <input type="text" class="quantity" value="1"/>
+            <button class="delete-button">supprimer</button>
+          </td>
+          </tr>
+          <tr class="table__row">
+            <td>Tifa Lockhart</td>
+            <td>69 £</td>
+            <td>
+              <input type="text" class="quantity" value="1"/>
+              <button class="delete-button">supprimer</button>
+            </td>
+          </tr>
+          <tr class="table__row">
+            <td>Barret Wallace</td>
+            <td>69 £</td>
+            <td>
+              <input type="text" class="quantity" value="1"/>
+              <button class="delete-button">supprimer</button>
+            </td>
+          </tr>
+      </tbody>
+        <tfoot>
+          <td>Total de la commande:</td>
+          <td>197 £</td>
+        </tfoot>
+      </table>
+    </div>
+
+    <fieldset class="product-shipping">
+      <h2 class="product-shipping__title">Préférences de livraison</h2>
+        
+        <legend class="delivery-address">Où souhaitez-vous être livré ?</legend>
+          <input 
+            type="radio" 
+            id="my-address" 
+            name="address" 
+            value="currentAddress" 
+            checked/>
+            <label for="my-address">Mon adresse courante</label>
+
+          <input 
+            type="radio" 
+            id="other-address" 
+            name="address"/>
+            <label for="other-address">Autre adresse</label>
+        
+        <legend class="delivery-options">Options</legend>
+          <input type="checkbox" id="" name="" value=""/>
+          <label for="">Suivi de livraison par sms (inclus)</label>
+          
+          <input type="checkbox" id="" name="" value=""/>
+          <label for="">Satisfait ou remboursé(+2 euros)</label>
+          
+          <input type="checkbox" id="" name="" value=""/>
+          <label for="">Garantie 2 ans (+10 euros)</label>
+          
+
+    </fieldset>
+
+
+  <footer class="footer">
+    <p class="footer__copyright">oFig - toutes les images sont sous copyright SquareEnix</p>
+  </footer>
+
+  <!-- POSITIONNEMENT fixed -->
+  <aside class="fixed-sales">
+    <p class="fixed-saled__text">soldes</p>
+  </aside>
+  
+</body>
+</html>

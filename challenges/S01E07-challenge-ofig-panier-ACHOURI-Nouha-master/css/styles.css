@@ -1,0 +1,90 @@
+/*! ==== GLOBAL ==== */
+body {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  /*! ==== HEADER ==== */
+  .header__title-container {
+    display: flex;
+    align-items: baseline;
+    gap: 0.8rem;
+    padding: 1rem;
+    background-color: #c80000;
+  }
+  .header__title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+  }
+  .header__subtitle {
+    font-weight: 800;
+    color: white;
+  }
+  .header__theme-container {
+    padding: 0.5rem;
+    background-color: gray;
+    text-align: center;
+  }
+  .header__theme-title {
+    color: white;
+  }
+  .header__theme-title-franchise {
+    font-size: 1.5em;
+    font-style: italic;
+  }
+
+  .product-basket__title {
+    background-color: #a4efaa;
+    font-weight: bolder;
+    padding: 1em 1em;
+  }
+
+  .product-basket {
+    background-color: #40f2f2;
+    text-align: center;
+    padding: 1em 1em;
+  }
+
+  .table-head{
+    font-weight:bolder;
+    padding: 1em 1em;
+  }
+
+  .quantity{
+    width: 3em;
+  }
+
+  .delete-button {
+    border: 0;
+    text-decoration-line: underline;
+    color: brown;
+    background-color: transparent;
+    font-size: 0.75em;
+    cursor: pointer;
+  }
+
+  
+  /*! ==== FOOTER ==== */
+  .footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  /*! ==== FIXED ==== */
+  .fixed-sales {
+    position: fixed; /* on fixe l'element sur la fenetre du navigateur. La place qu'occupait cet element est maintenant retiré de la page */
+    left: 0; /* Collé a gauche */
+    top: 50%; /* A 50% du top (donc au milieu sur l'axe vertical) */
+    padding: 0.45rem;
+    border-radius: 0 8px 8px 0;
+    background-color: #c80000;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 0.8rem;
+    writing-mode: vertical-lr; /* Passe le text en vertical */
+    text-orientation: upright; /* Passe les lettres vers le haut */
+    letter-spacing: -3px; /* Espace entre les lettres */
+  }
